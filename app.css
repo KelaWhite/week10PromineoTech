@@ -1,0 +1,133 @@
+body {
+    background: #DFCAB9;
+    font-family: "Nunito", sans-serif;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #FFFFFF;
+    transition: .75s ease;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #313638;
+}
+
+#mainNavbar .navbar-brand {
+    color: #313638;
+    font-size: 1.5rem;
+    transition: .50s ease;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: white;
+}
+
+#mainNavbar {
+    background: transparent !important;
+    transition: .75s ease;
+}
+
+#mainNavbar.scrolled {
+    background: #313638 !important;
+}
+
+#mainNavbar.scrolled .navbar-brand {
+    color: #DFCAB9;
+}
+
+#mainNavbar.scrolled .nav-link:hover {
+    color: #DFCAB9;
+}
+
+#mainNavbar.scrolled .navbar-brand:hover {
+    color: white;
+}
+
+#seasonGroup span {
+    color: white;
+}
+
+#seasonGroup h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    color: #313638;
+}
+
+@media (max-width: 900px) {
+    #seasonGroup h1 {
+        font-size: 3rem;
+    }
+}
+
+label {
+    color: #313638; 
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+#username {
+    color: #313638; 
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.stylingSeason h2 {
+    color: #313638; 
+    font-weight: 100;
+    font-size: 1.5rem; 
+}
+
+.stylingSeason h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.stylingSeason p {
+    color: #313638; 
+    font-weight: 100;
+    font-size: .9rem;
+} 
+
+.stylingSeason a {
+    color: #313638;
+}
+
+.stylingSeason a:hover {
+    color: #DFCAB9;
+    text-decoration: none;
+}
+
+div #authors {
+    color: #313638;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+table #authors {
+    color: #313638;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

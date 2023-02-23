@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seasons - Poetry of Change</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+      <a href="" class="navbar-brand">SEASONS</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">SPRING</a>
+          </li>
+          <li class="nav-item">
+            <a href="summer.html" class="nav-link">SUMMER</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">FALL</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">WINTER</a>            
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div id="seasonGroup" class="text-center d-none d-md-block mt-5">
+                  <h1><span>✹</span><br>SUMMER<br><span>✹</span></h1>
+                </div>  
+            </div>
+            <div class="col-md-6 mt-5">
+                <img class="img-fluid" src="summer.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid mt-5">
+        <div class="card stylingSeason">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm"> 
+                <h2 class="text-center">Submit your entry</h2>                     
+                <div class="container-fluid col-12 form-row align-items-center">
+                  <label for="new-author-name" class="col-sm-2 col-form-label">Author:</label>
+                  <input type="text" id="new-author-name" class="form-control" placeholder="Enter name">                      
+                </div>
+              </div>  
+            </div>
+            <div class="col-auto form-row align-items-center mt-2">
+              <button id="new-author" class="btn btn-primary form-control">Create Entry</button>
+            </div>
+          </div>
+        </div><br><br>
+        
+        <div class="container-fluid stylingSeason" id="authors">
+  
+        </div> 
+    </section> 
+<!--    <section class="container-fluid mt-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                          <label for="new-title">Title</label>
+                          <input type="text" class="form-control" id="new-title">
+                            <div class="form-group">
+                              <label for="new-author">Author</label>
+                              <input type="text" class="form-control" id="new-author">
+                                <div class="form-group">
+                                  <label for="new-poem">Compose Below</label>
+                                  <textarea class="form-control" rows="5" id="new-poem"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                  <button id="new-team" class="btn btn-primary form-control">Submit</button>
+                </div>
+            </div>
+        </div><br>
+
+        <div id="poems">
+    
+        </div>
+
+    </section> -->   
+<!--
+    <section>
+
+        <div class="container-fluid pt-5 pb-5 stylingSeason">  
+            <h2 class="text-center">Login to submit your entry</h2>  
+            <div>  
+                <div class="row align-items-center">  
+                    <div class="col-lg-5 mx-auto">  
+                        <div class="card card-body">  
+                            <form id="submitForm" action="#" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" novalidate="" _lpchecked="1">  
+                                <input type="hidden" name="_csrf" value="7635eb83-1f95-4b32-8788-abec2724a9a4">  
+                            <div class="form-group required">  
+                                <label for="username"> Enter your Email </label>  
+                                <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="yourname@youremail.com">  
+                            </div>                      
+                            <div class="form-group required">  
+                                <label class="d-flex flex-row align-items-center" for="password"> Enter your Password   
+                                    <a class="ml-auto border-link small-xl" href="#">Forget Password?</a> </label>  
+                                    <input type="password" class="form-control" required="" id="password" name="password" value="">  
+                            </div>
+                            <div class="form-group mt-4 mb-4">   
+                            </div>  
+                            <div class="form-group pt-1">  
+                                <button class="btn btn-primary btn-block" type="submit"> Log In </button>  
+                            </div>  
+                            </form>  
+                            <p class="text-center">  
+                            <span class="text-muted"> Not a member? </span>  
+                            <a href="#"> Sign up </a>  
+                            </p>  
+                        </div>  
+                    </div>  
+                </div>  
+             </div>  
+        </div> 
+    </section>
+-->
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script> 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+      $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+      });
+    </script>
+  </body>
+</html>
